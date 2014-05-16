@@ -19,6 +19,9 @@
 		9B990F3C19267942001FCB8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B990F2419267942001FCB8B /* UIKit.framework */; };
 		9B990F4419267942001FCB8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B990F4219267942001FCB8B /* InfoPlist.strings */; };
 		9B990F4619267942001FCB8B /* RedditAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B990F4519267942001FCB8B /* RedditAppTests.m */; };
+		9B990F51192679AE001FCB8B /* PostsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B990F50192679AE001FCB8B /* PostsTableViewController.m */; };
+		9B990F5419267C2C001FCB8B /* RedditPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B990F5319267C2C001FCB8B /* RedditPost.m */; };
+		9B990F5719268E4B001FCB8B /* NSString+CategoryThing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B990F5619268E4B001FCB8B /* NSString+CategoryThing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,12 @@
 		9B990F4119267942001FCB8B /* RedditAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RedditAppTests-Info.plist"; sourceTree = "<group>"; };
 		9B990F4319267942001FCB8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B990F4519267942001FCB8B /* RedditAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedditAppTests.m; sourceTree = "<group>"; };
+		9B990F4F192679AE001FCB8B /* PostsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsTableViewController.h; sourceTree = "<group>"; };
+		9B990F50192679AE001FCB8B /* PostsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsTableViewController.m; sourceTree = "<group>"; };
+		9B990F5219267C2C001FCB8B /* RedditPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditPost.h; sourceTree = "<group>"; };
+		9B990F5319267C2C001FCB8B /* RedditPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedditPost.m; sourceTree = "<group>"; };
+		9B990F5519268E4B001FCB8B /* NSString+CategoryThing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CategoryThing.h"; path = "../NSString+CategoryThing.h"; sourceTree = "<group>"; };
+		9B990F5619268E4B001FCB8B /* NSString+CategoryThing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+CategoryThing.m"; path = "../NSString+CategoryThing.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +118,12 @@
 			children = (
 				9B990F2F19267942001FCB8B /* AppDelegate.h */,
 				9B990F3019267942001FCB8B /* AppDelegate.m */,
+				9B990F4F192679AE001FCB8B /* PostsTableViewController.h */,
+				9B990F50192679AE001FCB8B /* PostsTableViewController.m */,
+				9B990F5219267C2C001FCB8B /* RedditPost.h */,
+				9B990F5319267C2C001FCB8B /* RedditPost.m */,
+				9B990F5519268E4B001FCB8B /* NSString+CategoryThing.h */,
+				9B990F5619268E4B001FCB8B /* NSString+CategoryThing.m */,
 				9B990F3219267942001FCB8B /* Images.xcassets */,
 				9B990F2719267942001FCB8B /* Supporting Files */,
 			);
@@ -239,6 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B990F51192679AE001FCB8B /* PostsTableViewController.m in Sources */,
+				9B990F5419267C2C001FCB8B /* RedditPost.m in Sources */,
+				9B990F5719268E4B001FCB8B /* NSString+CategoryThing.m in Sources */,
 				9B990F3119267942001FCB8B /* AppDelegate.m in Sources */,
 				9B990F2D19267942001FCB8B /* main.m in Sources */,
 			);
